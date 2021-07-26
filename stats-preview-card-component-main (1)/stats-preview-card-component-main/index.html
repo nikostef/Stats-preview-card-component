@@ -1,0 +1,58 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Frontend Mentor | Stats preview card component</title>
+  <meta name="author" content="Nikoleta Stefanova">
+  <meta name="description" content="Frontend Mentor Challenge" />
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <!-- Stats Preview Card -->
+  <main>
+    <div class="container">
+      <section class="stats-preview-card">
+        <div class="row">
+          <div class="stats-preview-imgBox">
+            <picture class="stats-preview-img">
+              <source srcset="images/image-header-desktop.jpg" media="(min-width: 654px)">
+              <img src="images/image-header-mobile.jpg" alt="people on their laptops" />
+            </picture>
+          </div>
+          <div class="stats-preview-text container">
+            <h1>Get <span class="accent">insights</span> that help your business grow.</h1>
+            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            <div class="row stats-container">
+              <div class="stats-item">
+                <span class="stats">10k+</span>
+                <p class="stats-heading">companies</p>
+              </div>
+              <div class="stats-item">
+                <span class="stats">314</span>
+                <p class="stats-heading">templates</p>
+              </div>
+              <div class="stats-item">
+                <span class="stats">12M+</span>
+                <p class="stats-heading">queries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="attribution"><small>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/IEdiong" target="_blank">Nikoleta Stefanova</a>.</small></footer>
+</body>
+
+</html>
